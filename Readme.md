@@ -35,7 +35,7 @@ Edit the ElasticSearch Config file:
 
 Change the network.host line to:
 
-  network.host: 192.168.1.100
+	network.host: 192.168.1.100
 
 
 #### Kibana Configuration
