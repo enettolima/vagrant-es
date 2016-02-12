@@ -13,7 +13,8 @@ mkdir -p /var/www
 printf "${NC}Updating Ubuntu\n"
 sudo add-apt-repository ppa:webupd8team/java
 apt-get -y update
-#INstalling java
+
+#Installing java
 printf "${NC}Installing java\n"
 sudo apt-get -y install default-jre
 sudo apt-get -y install default-jdk
@@ -43,6 +44,7 @@ printf "${NC}Installing Kibana4.4.0\n"
 cd /etc/elasticsearch
 mkdir kibana
 cp -r /var/www/kibana-4.4.0-linux-x64/* kibana/
+sudo chmod -R 777 kibana
 cd kibana
 
 bin/kibana plugin --install elasticsearch/marvel/latest

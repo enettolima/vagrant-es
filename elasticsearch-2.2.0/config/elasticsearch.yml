@@ -14,7 +14,7 @@
 #
 # Use a descriptive name for your cluster:
 #
-cluster.name: ebt-doc
+cluster.name: es-cluster
 #
 # ------------------------------------ Node ------------------------------------
 #
@@ -34,7 +34,7 @@ node.name: node-1
 #
 # Path to log files:
 #
-path.logs: /var/www/logs
+# path.logs: /var/www/logs
 #
 # ----------------------------------- Memory -----------------------------------
 #
