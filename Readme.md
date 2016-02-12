@@ -35,7 +35,7 @@ Edit the ElasticSearch Config file:
 
 Change the line
 
-#network.host: 192.168.0.1 to
+\#network.host: 192.168.0.1 to
 
 network.host: 192.168.1.100
 
