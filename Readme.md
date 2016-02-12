@@ -71,7 +71,7 @@ And start kibana:
 
 To access ElasticSearch try on your browser:
 
-	http://192.168.3.113:9200/_cluster/health?pretty
+	http://192.168.1.100:9200/_cluster/health?pretty
 
 To access kibana go to:
 
