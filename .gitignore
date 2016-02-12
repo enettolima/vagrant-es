@@ -1,0 +1,2 @@
+#Ignore vagrant auto-generated files
+.vagrant/machines
