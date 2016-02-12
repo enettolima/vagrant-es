@@ -33,11 +33,9 @@ Edit the ElasticSearch Config file:
 
 	vim /etc/elasticsearch/elasticsearch.yml
 
-Change the line
+Change the network.host line to:
 
-\#network.host: 192.168.0.1 to
-
-network.host: 192.168.1.100
+  network.host: 192.168.1.100
 
 
 #### Kibana Configuration
